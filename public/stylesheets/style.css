@@ -37,7 +37,7 @@ li {
 
 header {
   max-width: 100%;
-  height: auto;
+  height: 100vh;
   background-image: url(bg/weatherapp-header.png);
   background-size: cover;
   color: #fff;
@@ -52,11 +52,13 @@ header {
 }
 
 .content {
-  max-width: 60%;
+  width: 68%;
+  position: relative;
 }
 
 .hero {
-   max-width: 40%;
+   width: 30%;
+   position: relative;
  }
 
  .phone {
@@ -75,9 +77,23 @@ header {
  .btn-primary {
    font-weight: 600;
    border: none;
-   height: 26px;
+   height: 28px;
    background: #eb7d4b;
    outline: none;
    padding: 3px;
    border-radius: 0 8px 8px 0;
  }
+
+ /**
+ * media queries for desktop
+ * */
+
+@media (min-width:933px){
+  .nav li{
+    display: inline-block;
+    margin-left: 1em;
+  }
+  .wrapper {
+    padding: 0 20% 0 20%;
+  }
+}
