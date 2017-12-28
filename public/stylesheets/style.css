@@ -37,7 +37,7 @@ li {
 
 header {
   max-width: 100%;
-  height: 100vh;
+  height: auto;
   background-image: url(bg/weatherapp-header.png);
   background-size: cover;
   color: #fff;
