@@ -2,4 +2,28 @@ extends layout
 
 block content
   header
-    
+    .container
+      .brand.left
+        h1 YO WEATHER
+      .nav.right
+        ul
+          li
+            a(href = "") Home
+          li
+            a(href = "") Features
+          li
+            a(href = "") Reviews
+      .clear-fix
+      br
+      br
+      .content.left
+        h1.heading Get latest live weather updates around you.
+        br
+        p Simple nice user-friendly application of the weather.Only useful information.
+        br
+        form(action = "" method = "GET" name= "search-form").search-form
+          input(type = "text" name = "location").location
+          button(type = "submit" name = "submit-btn").btn.btn-primary Get Weather
+       .hero.right
+         img(src = "images/phone.png").phone
+       .clear-fix
