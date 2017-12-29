@@ -22,8 +22,8 @@ block content
           br
           p Simple nice user-friendly application of the weather.Only useful information.
           br
-          form(action = "" method = "GET" name= "search-form").search-form
-            input(type = "text" name = "location").location
+          form(action = "/show" method = "POST" name= "search-form").search-form
+            input(type = "text" name = "query" placeholder = "country/city" required).location
             button(type = "submit" name = "submit-btn").btn.btn-primary Get Weather
          .hero.right
            img(src = "images/phone.png").phone
