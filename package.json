@@ -16,6 +16,25 @@
     "serve-favicon": "~2.4.5"
   },
   "engines": {
-   "node": "8.9.3"
- }
+    "node": "8.9.3"
+  },
+  "description": "weatherapp",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zmunetsi/weatherapp.git"
+  },
+  "keywords": [
+    "weather",
+    "in",
+    "node",
+    "js"
+  ],
+  "author": "Munetsi Zunguzira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zmunetsi/weatherapp/issues"
+  },
+  "homepage": "https://github.com/zmunetsi/weatherapp#readme"
 }
