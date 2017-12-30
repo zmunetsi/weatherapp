@@ -43,12 +43,23 @@ header {
   color: #fff;
 }
 
+.brand {
+  color: #eb7d4b;
+}
+
 .left {
   float: left;
 }
 
 .right {
   float: right;
+}
+
+.error {
+  margin: 0 auto;
+  background: #eb7d4b;
+  z-index: 1000;
+  padding: 1% 6%;
 }
 
 .content {
@@ -73,6 +84,8 @@ header {
    border: none;
    outline: none;
    padding: 1px 4px;
+   font-weight: 600;
+   font-size: 18px;
  }
  .btn-primary {
    font-weight: 600;

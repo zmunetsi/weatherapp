@@ -22,7 +22,7 @@ router.post('/', function(req, res,next) {
 
         res.render('show',{"temp": temp, "icon": icon, "weather": weather,"location": location});
       }else{
-        res.render("error", {"error": "Location not found.Please try anather location"})
+        res.render("error", {"error": "Location not found.Please try another location.Type Country/City."})
       }
 
 
